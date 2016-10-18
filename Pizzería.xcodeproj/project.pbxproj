@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F8A93CF31DB5BA2D00937FFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93CF21DB5BA2D00937FFA /* AppDelegate.swift */; };
+		F8A93CF51DB5BA2D00937FFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93CF41DB5BA2D00937FFA /* ViewController.swift */; };
+		F8A93CF81DB5BA2D00937FFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A93CF61DB5BA2D00937FFA /* Main.storyboard */; };
+		F8A93CFA1DB5BA2D00937FFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8A93CF91DB5BA2D00937FFA /* Assets.xcassets */; };
+		F8A93CFD1DB5BA2D00937FFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8A93CFB1DB5BA2D00937FFA /* LaunchScreen.storyboard */; };
+		F8A93D051DB5BFEE00937FFA /* VistaTipoDeMasa.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93D041DB5BFEE00937FFA /* VistaTipoDeMasa.swift */; };
+		F8A93D071DB5CA1400937FFA /* VistaTipoDeQueso.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93D061DB5CA1400937FFA /* VistaTipoDeQueso.swift */; };
+		F8A93D091DB5CFAC00937FFA /* VistaTipoDeIngredientes.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93D081DB5CFAC00937FFA /* VistaTipoDeIngredientes.swift */; };
+		F8A93D0B1DB5E6B100937FFA /* VistaTipoConfirmación.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93D0A1DB5E6B100937FFA /* VistaTipoConfirmación.swift */; };
+		F8A93D0D1DB5EB8C00937FFA /* VistaTipoFinalizar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8A93D0C1DB5EB8C00937FFA /* VistaTipoFinalizar.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F8A93CEF1DB5BA2D00937FFA /* Pizzería.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pizzería.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8A93CF21DB5BA2D00937FFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F8A93CF41DB5BA2D00937FFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F8A93CF71DB5BA2D00937FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F8A93CF91DB5BA2D00937FFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8A93CFC1DB5BA2D00937FFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F8A93CFE1DB5BA2D00937FFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F8A93D041DB5BFEE00937FFA /* VistaTipoDeMasa.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoDeMasa.swift; sourceTree = "<group>"; };
+		F8A93D061DB5CA1400937FFA /* VistaTipoDeQueso.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoDeQueso.swift; sourceTree = "<group>"; };
+		F8A93D081DB5CFAC00937FFA /* VistaTipoDeIngredientes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoDeIngredientes.swift; sourceTree = "<group>"; };
+		F8A93D0A1DB5E6B100937FFA /* VistaTipoConfirmación.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "VistaTipoConfirmación.swift"; sourceTree = "<group>"; };
+		F8A93D0C1DB5EB8C00937FFA /* VistaTipoFinalizar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaTipoFinalizar.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8A93CEC1DB5BA2D00937FFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8A93CE61DB5BA2D00937FFA = {
+			isa = PBXGroup;
+			children = (
+				F8A93CF11DB5BA2D00937FFA /* Pizzería */,
+				F8A93CF01DB5BA2D00937FFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8A93CF01DB5BA2D00937FFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8A93CEF1DB5BA2D00937FFA /* Pizzería.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8A93CF11DB5BA2D00937FFA /* Pizzería */ = {
+			isa = PBXGroup;
+			children = (
+				F8A93CF21DB5BA2D00937FFA /* AppDelegate.swift */,
+				F8A93CF41DB5BA2D00937FFA /* ViewController.swift */,
+				F8A93CF61DB5BA2D00937FFA /* Main.storyboard */,
+				F8A93CF91DB5BA2D00937FFA /* Assets.xcassets */,
+				F8A93CFB1DB5BA2D00937FFA /* LaunchScreen.storyboard */,
+				F8A93CFE1DB5BA2D00937FFA /* Info.plist */,
+				F8A93D041DB5BFEE00937FFA /* VistaTipoDeMasa.swift */,
+				F8A93D061DB5CA1400937FFA /* VistaTipoDeQueso.swift */,
+				F8A93D081DB5CFAC00937FFA /* VistaTipoDeIngredientes.swift */,
+				F8A93D0A1DB5E6B100937FFA /* VistaTipoConfirmación.swift */,
+				F8A93D0C1DB5EB8C00937FFA /* VistaTipoFinalizar.swift */,
+			);
+			path = "Pizzería";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8A93CEE1DB5BA2D00937FFA /* Pizzería */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A93D011DB5BA2D00937FFA /* Build configuration list for PBXNativeTarget "Pizzería" */;
+			buildPhases = (
+				F8A93CEB1DB5BA2D00937FFA /* Sources */,
+				F8A93CEC1DB5BA2D00937FFA /* Frameworks */,
+				F8A93CED1DB5BA2D00937FFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pizzería";
+			productName = "Pizzería";
+			productReference = F8A93CEF1DB5BA2D00937FFA /* Pizzería.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8A93CE71DB5BA2D00937FFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "César Omar Román Domínguez";
+				TargetAttributes = {
+					F8A93CEE1DB5BA2D00937FFA = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2GA4786XP3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F8A93CEA1DB5BA2D00937FFA /* Build configuration list for PBXProject "Pizzería" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8A93CE61DB5BA2D00937FFA;
+			productRefGroup = F8A93CF01DB5BA2D00937FFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8A93CEE1DB5BA2D00937FFA /* Pizzería */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8A93CED1DB5BA2D00937FFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A93CFD1DB5BA2D00937FFA /* LaunchScreen.storyboard in Resources */,
+				F8A93CFA1DB5BA2D00937FFA /* Assets.xcassets in Resources */,
+				F8A93CF81DB5BA2D00937FFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8A93CEB1DB5BA2D00937FFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8A93D091DB5CFAC00937FFA /* VistaTipoDeIngredientes.swift in Sources */,
+				F8A93D051DB5BFEE00937FFA /* VistaTipoDeMasa.swift in Sources */,
+				F8A93CF51DB5BA2D00937FFA /* ViewController.swift in Sources */,
+				F8A93D0B1DB5E6B100937FFA /* VistaTipoConfirmación.swift in Sources */,
+				F8A93D0D1DB5EB8C00937FFA /* VistaTipoFinalizar.swift in Sources */,
+				F8A93D071DB5CA1400937FFA /* VistaTipoDeQueso.swift in Sources */,
+				F8A93CF31DB5BA2D00937FFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F8A93CF61DB5BA2D00937FFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A93CF71DB5BA2D00937FFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F8A93CFB1DB5BA2D00937FFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F8A93CFC1DB5BA2D00937FFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F8A93CFF1DB5BA2D00937FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8A93D001DB5BA2D00937FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8A93D021DB5BA2D00937FFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GA4786XP3;
+				INFOPLIST_FILE = "Pizzería/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.cesar.Pizzeri-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F8A93D031DB5BA2D00937FFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2GA4786XP3;
+				INFOPLIST_FILE = "Pizzería/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "mx.cesar.Pizzeri-a";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8A93CEA1DB5BA2D00937FFA /* Build configuration list for PBXProject "Pizzería" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A93CFF1DB5BA2D00937FFA /* Debug */,
+				F8A93D001DB5BA2D00937FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A93D011DB5BA2D00937FFA /* Build configuration list for PBXNativeTarget "Pizzería" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8A93D021DB5BA2D00937FFA /* Debug */,
+				F8A93D031DB5BA2D00937FFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8A93CE71DB5BA2D00937FFA /* Project object */;
+}
