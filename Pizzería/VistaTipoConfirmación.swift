@@ -30,11 +30,30 @@ class VistaTipoConfirmacio_n: UIViewController {
     override func viewWillAppear(_ animated: Bool) {
         let fullNameArr = total.characters.split{$0 == " "}.map(String.init)
         subTitulo1.text = String(tipoPizza)
-        mostrarIng1.text = String(fullNameArr[0])
-        mostrarIng2.text = String(fullNameArr[1])
-        mostrarIng3.text = String(fullNameArr[2])
-        mostrarIng4.text = String(fullNameArr[3])
-        mostrarIng5.text = String(fullNameArr[4])
+        
+        if fullNameArr.count == 1{
+            mostrarIng1.text = String(fullNameArr[0])
+        }else if fullNameArr.count == 2{
+            mostrarIng1.text = String(fullNameArr[0])
+            mostrarIng2.text = String(fullNameArr[1])
+        }else if fullNameArr.count == 3 {
+            mostrarIng1.text = String(fullNameArr[0])
+            mostrarIng2.text = String(fullNameArr[1])
+            mostrarIng3.text = String(fullNameArr[2])
+        }else if fullNameArr.count == 4 {
+            mostrarIng1.text = String(fullNameArr[0])
+            mostrarIng2.text = String(fullNameArr[1])
+            mostrarIng3.text = String(fullNameArr[2])
+            mostrarIng4.text = String(fullNameArr[3])
+        }else if fullNameArr.count == 5{
+            mostrarIng1.text = String(fullNameArr[0])
+            mostrarIng2.text = String(fullNameArr[1])
+            mostrarIng3.text = String(fullNameArr[2])
+            mostrarIng4.text = String(fullNameArr[3])
+            mostrarIng5.text = String(fullNameArr[4])
+        }
+        
+        
     }
     
     override func viewDidLoad() {
